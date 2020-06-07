@@ -51,3 +51,21 @@ alert("I am trying to learn from the Book" + book);
 document.write("Yah! I can write HTML content through JAVASCRIPT");
 // #8
 alert("▬▬▬▬▬▬▬▬▬ஜ۩END۩ஜ▬▬▬▬▬▬▬▬▬");
+
+// VARIABLES FOR NUMBER
+// #1
+
+var age1 = 21;
+
+alert("I am " + age1 + " years old");
+
+// #2
+var birthYear = 1998;
+document.write("<br>My birht year is " + birthYear);
+// #3
+var vName = prompt("Welcome to our store \n what's your name?");
+var vPorduct = prompt("which product you want?");
+var vQuantity = prompt("How many you want?");
+document.write(
+  "<br>" + vName + " ordered " + vQuantity + " " + vPorduct + " on our store"
+);
