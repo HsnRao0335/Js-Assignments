@@ -76,6 +76,76 @@
 //     " on our store <br>"
 // );
 
+// CHAPTER 14-16 ARRAYS
+// TASK#1
+
+// var empArr = [""];
+// // TASK#2
+// var empArrObj = [{}, {}];
+// // TASK#3
+// var strArr = ["", "", ""];
+// // TASK#4
+// var numArr = [1, 2, 3, 4];
+// // TASK#5
+// var boolArr = [true, false];
+// // TASK#6
+// var mixArr = [[], [], [], []];
+// // TASK#7
+// var education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil"];
+// document.write("<h1>Qualification:</h1> <br/>");
+// for (var i = 0; i < education.length; i++) {
+//   document.write("<br/>" + i + ")" + education[i]);
+// }
+// TASK#8
+// var colors = ["green", "blue", "yellow", "red"];
+// var colors1 = ["green", "blue", "yellow", "red"];
+
+// var colorInput = prompt("Which color you want to add in our Colors array");
+// var updatedColor = colors.unshift(colorInput);
+// document.write(
+//   "<h1>Colors:" +
+//     colors1 +
+//     "</h1> <br/> <h1>Updated Colors: " +
+//     colors +
+//     "</h1>"
+// );
+
+// TASK#9
+// var colors = ["green", "blue", "yellow", "red"];
+// var colors1 = ["green", "blue", "yellow", "red"];
+
+// var colorInput = prompt("Which color you want to add in our Colors array");
+// var updatedColor = colors.push(colorInput);
+// document.write(
+//   "<h1>Colors:" +
+//     colors1 +
+//     "</h1> <br/> <h1>Updated Colors: " +
+//     colors +
+//     "</h1>"
+// );
+// TASK#10
+// var colors = ["green", "blue", "yellow", "red"];
+// var colors1 = ["green", "blue", "yellow", "red"];
+
+// var colorInput = prompt("Which color you want to add in our Colors array.");
+// var colorInput1 = prompt("Which color you want to add in our Colors array.");
+
+// var updatedColor = colors.splice(0, 0, colorInput, colorInput1);
+// document.write(
+//   "<h1>Colors:" +
+//     colors1 +
+//     "</h1> <br/> <h1>Updated Colors: " +
+//     colors +
+//     "</h1>"
+// );
+
+// TASK#11
+
+var scores = [320, 230, 480, 120];
+var scoresOrdered = scores.sort();
+console.log(scores);
+console.log(scoresOrdered);
+
 // // CHAPTER 17-20 ARRAYS AND LOOPS
 // // TASK#1
 // var arr = [[], [], []];
@@ -147,43 +217,43 @@
 // var search = prompt("Welcome to our Bakery,what do you want to order?");
 // for (var i = 0; i < bakery.length; i++) {
 //   if (bakery[i] === search) {
-//     document.write(
-//       search +
-//         " is <strong>available</strong> at index " +
-//         i +
-//         " in our bakery "
-//     );
+//     document.write("Yes " + search + " is available at index " + [i]);
+//     break;
+//   } else if (i === bakery.length - 1) {
+//     document.write("no " + search + " is not available");
+
+//     break;
 //   }
 // }
 
 // TASK#8
 
-var arrItem = [24, 53, 78, 91, 12];
-for (var i = 0; i < 100; i++) {
-  if (arrItem[i] == 91) {
-    document.write(
-      "Array Items: " + arrItem + "<br/> The largest number is " + arrItem[i]
-    );
-  }
-}
+// var arrItem = [24, 53, 78, 91, 12];
+// for (var i = 0; i < 100; i++) {
+//   if (arrItem[i] == 91) {
+//     document.write(
+//       "Array Items: " + arrItem + "<br/> The largest number is " + arrItem[i]
+//     );
+//   }
+// }
 
-// TASK#9
+// // TASK#9
 
-var arrItem = [24, 53, 78, 91, 12];
-for (var i = 0; i < arrItem.length; i++) {
-  if (arrItem[i] == 12) {
-    document.write(
-      "<br/><br/>Array Items: " +
-        arrItem +
-        "<br/> The smallet number is " +
-        arrItem[i] +
-        "<br/>"
-    );
-  }
-}
+// var arrItem = [24, 53, 78, 91, 12];
+// for (var i = 0; i < arrItem.length; i++) {
+//   if (arrItem[i] == 12) {
+//     document.write(
+//       "<br/><br/>Array Items: " +
+//         arrItem +
+//         "<br/> The smallet number is " +
+//         arrItem[i] +
+//         "<br/>"
+//     );
+//   }
+// }
 
-// TASK#10
+// // TASK#10
 
-for (var i = 5; i <= 100; i = i + 5) {
-  document.write(+i + ",");
-}
+// for (var i = 5; i <= 100; i = i + 5) {
+//   document.write(+i + ",");
+// }
